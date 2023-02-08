@@ -1,4 +1,4 @@
 //'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at 
 //the comma and change it to an array.
 let companyname = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
-console.log(companyname.split(" "));
+console.log(companyname.split(","));
