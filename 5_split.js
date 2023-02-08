@@ -7,5 +7,5 @@ console.log(myArray);
 
 // to split all letters dont give space("")
 
-let a = "akshay";
+let a = "akshay kute";
 console.log(a.split(""));
