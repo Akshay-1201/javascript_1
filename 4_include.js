@@ -6,4 +6,4 @@ let a = "INDIA is very beautiful country";
 console.log(a.includes('bea'));
 //If it dosent contains it will show the false
 
-console.log(a.includes('aks'));
+console.log(a.includes('abk'));
