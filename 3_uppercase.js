@@ -3,6 +3,6 @@
 let a = "akshay";
 console.log(a.toUpperCase());
 // another way to do it
-let text = "Hello World!";
+let text = "Hello World";
 let result = text.toUpperCase();
 console.log(result);
