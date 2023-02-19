@@ -3,10 +3,6 @@
 // 	   *
 // 	   **
 // 	   ***
-
-const { pause } = require("prompt");
-
-	
 // 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
 // 	   ***
 // 	   ***
@@ -25,3 +21,24 @@ for (let i = 1; i <= n; i++) {
   string += "\n";
 }
 console.log(string);
+
+console.log(`pattern :- 2`);
+let str = ""
+for(let i=0; i<3; i++){
+    for(let j=0; j<3; j++){
+        str+="*";
+    }
+    str+="\n";
+}
+
+console.log(str);
+
+console.log(`pattern :- 3`);
+let string2 = ""
+for (let i = 0; i <= n; i++) {
+    for (let j = 0; j < n-i; j++) {
+      string2 += "*";
+    }
+    string2 += "\n";
+  }
+  console.log(string2);
