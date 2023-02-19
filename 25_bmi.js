@@ -6,8 +6,8 @@
 //     - Obese: BMI is 30 or more
 
 
-let weight = 85;
-let height = 183;
+let weight = 120;
+let height = 150;
 
 let bmiHeight = height*height;
 function calculateBmi(w,h){
